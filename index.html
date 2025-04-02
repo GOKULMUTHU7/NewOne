@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GokulM - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #9843ff, #0a91ff, #26dbff, #1dfd9c, #32ff36, #f003f4);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            margin-top: 140px;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 2rem;
+            margin: 0 15px;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        .projects,
+        .certificates {
+            margin-top: 30px;
+        }
+
+        .project-card,
+        .certificate-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover,
+        .certificate-card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            /* Dynamically scales */
+            margin: 10px 0;
+            max-width: 90%;
+            word-break: break-word;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>GokulM</h1>
+        <p>IT Student | Web Developer | Tech Enthusiast</p>
+        <div class="social-links">
+            <a href="https://github.com/GOKULMUTHU7 · he/him" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/gokul-m-641ba6344" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:gokulgokul0409@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+            <div class="project-card">Project 3</div>
+        </div>
+        <div class="certificates">
+            <h2>Certificates</h2>
+            <div class="certificate-card">
+                <img src="assets\Screenshot (46).png" alt="Certificate 1" width="250">
+            </div>
+            <div class="certificate-card">
+                <img src="assets\Screenshot (45).png" alt="Certificate 2" width="250">
+            </div>
+            <div class="certificate-card">
+                <img src="assets\Screenshot (47).png" alt="Certificate 2" width="250">
+            </div>
+            <div class="certificate-card">
+                <img src="assets\Screenshot (48).png" alt="Certificate 2" width="250">
+            </div>
+            <br>
+            <div class="certificate-card">
+                <img src="assets\Coursera AQARO8CE8Q63_page-0001.jpg" alt="Certificate 2" width="250">
+            </div>
+            <div class="certificate-card">
+                <img src="assets\Screenshot 2025-04-01 223359.png" alt="Certificate 2" width="250">
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>
